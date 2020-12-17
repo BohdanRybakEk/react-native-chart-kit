@@ -34,14 +34,13 @@
     "dist"
   ],
   "scripts": {
-    "start": "expo start",
-    "eject": "expo eject",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "test": "jest",
     "build": "tsc",
     "dev": "tsc --watch",
-    "prepublish": "yarn build"
+    "prepublish": "npm run build"
   },
   "jest": {
     "preset": "jest-expo"
