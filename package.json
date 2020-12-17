@@ -38,9 +38,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "jest",
-    "build": "tsc",
-    "dev": "tsc --watch",
-    "prepublish": "npm run build"
+    "dev": "tsc --watch"
   },
   "jest": {
     "preset": "jest-expo"
